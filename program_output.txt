@@ -1,0 +1,49 @@
+Bem-vindo ao Super Trunfo de Países!!
+
+Para começar, te ajudaremos a construir seu baralho.
+Por favor, siga as instruções: 
+
+Carta Nº01
+Digite uma letra de A à H para determinar o estado da carta: 
+Digite um número de 01 a 04 para determinar o código da carta(Ex: A01): 
+Digite o nome da cidade representada na carta: 
+Digite, em números, a população da cidade escolhida: 
+Digite, em números, a área em kilômetros quadrados da cidade escolhida: 
+Digite, em números, o PIB da cidade escolhida: 
+Digite, em números, quantos pontos turísticos existem na cidade: 
+Densidade Populacional: 3004.29 hab/km²
+PIB per Capita: 33500.16 reais
+Super Poder: 50001493047.95
+Carta Nº02
+Digite uma letra de A à H para determinar o estado da carta: 
+Digite um número de 01 a 04 para determinar o código da carta(Ex: A01): 
+Digite o nome da cidade representada na carta: 
+Digite, em números, a população da cidade escolhida: 
+Digite, em números, a área em km² da cidade escolhida: 
+Digite, em números, o PIB em R$ da cidade escolhida: 
+Digite, em números, quantos pontos turísticos existem na cidade: 
+Densidade Populacional: 2794.61 hab/km²
+PIB per Capita: 28718.47 reais
+Super Poder: 10000348346.88
+
+Carta Nº01:
+Estado: A
+Código: A01
+Nome da Cidade: Porto_Alegre
+População: 1492530
+Área: 496.80 Km²
+PIB: 50000000000.00 reais
+Numero de pontos turísticos: 10
+Densidade populacional: 3004.29 hab/km²
+PIB per capita: 33500.16 reais
+
+Carta Nº02:
+Estado: B
+Código: B01
+Nome da Cidade: Canoas
+População: 348208
+Área: 124.60 Km²
+PIB: 10000000000.00 reais
+Numero de pontos turísticos: 4
+Densidade populacional: 2794.61 hab/km²
+PIB per capita: 28718.47 reais
