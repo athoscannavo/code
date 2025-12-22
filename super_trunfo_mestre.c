@@ -32,6 +32,16 @@ int main(){
     double super_poder02;
 
 
+    //Variáveis de comparação entre cartas
+    int comparacao_populacao;
+    int comparacao_area;
+    int comparacao_pib;
+    int comparacao_pontos_turisticos;
+    int comparacao_densidade_populacional;
+    int comparacao_pib_per_capita;
+
+
+
  /*Inicialização do programa*/
 
     printf("Bem-vindo ao Super Trunfo de Países!!\n\n");
@@ -142,11 +152,59 @@ int main(){
 
 
 
+    //Comparação entre cartas
+
+    printf("\n*** COMPARANDO AS CARTAS: ***\n");
+    
+    int carta01 = 0, carta02 = 0;
+
+     carta01 += (populacao01 > populacao02);
+     carta02 += (populacao02 > populacao01);
+
+    printf("POPULAÇÃO: Carta01: %d - Carta02: %d\n", populacao01, populacao02);
+
+    carta01 += (area01 > area02);
+    carta02 += (area02 > area01);
+
+    printf("ÁREA: Carta01: %f - Carta02: %f\n", area01, area02);
+
+    carta01 += (pib01 > pib02);
+    carta02 += (pib02 > pib01);
+
+    printf("PIB: Carta01: %f - Carta02: %f\n", pib01, pib02);
+
+    carta01 += (pontos_turisticos01 > pontos_turisticos02);
+    carta02 += (pontos_turisticos02 > pontos_turisticos01);
+
+    printf("PONTOS TURÍSTICOS: Carta01: %d - Carta02: %d\n", pontos_turisticos01, pontos_turisticos02);
+
+    carta01 += (densidade_populacional01 < densidade_populacional02);
+    carta02 += (densidade_populacional02 < densidade_populacional01);
+
+    printf("DENSIDADE POPULACIONAL: Carta01: %f - Carta02: %f\n", densidade_populacional01, densidade_populacional02);
+
+    carta01 += (pib_per_capita01 > pib_per_capita02);
+    carta02 += (pib_per_capita02 > pib_per_capita01);
+
+    printf("PIB PER CAPITA: Carta01: %f - Carta02: %f\n", pib_per_capita01, pib_per_capita02);
+
+    carta01 += (super_poder01 > super_poder02);
+    carta02 += (super_poder02 > super_poder01);
+
+    printf("SUPER PODER: Carta01: %f - Carta02: %f\n", super_poder01, super_poder02);
+
+    printf("\nPONTUAÇÃO FINAL:\n");
+    printf("CARTA 01: %d pontos\n", carta01);
+    printf("CARTA 02: %d pontos\n", carta02);
+
+    
+    char *resultado = (carta01 > carta02) ? "CARTA 01 VENCEU" :
+                      (carta02 > carta01) ? "CARTA 02 VENCEU" :
+                                            "EMPATE";
+
+    printf("RESULTADO: %s\n", resultado);
 
    
-
-
-
 
     return 0;
 
